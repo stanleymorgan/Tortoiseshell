@@ -1,0 +1,111 @@
+.header{
+  height: 64px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+#logo{
+  margin-left: 24px;
+  margin-right: 6px;
+}
+#firstWord{
+  font-weight: bold;
+  color: darkgray;
+}
+#secondWord{
+  color: lightgray;
+}
+ul{
+  display: inline-flex;
+  justify-content: flex-start;
+  align-items: center;
+  list-style-type: none;
+  margin-left: 820px;
+}
+li{
+  margin-right: 16px;
+}
+/*Top Block*/
+#topBlock{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 720px;
+  background-color: lightgray;
+}
+.leftDiv{
+  width: 60%;
+  height: 720px;
+}
+.rightDiv{
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 720px;
+}
+#tablePic{
+  margin-top: 32px;
+  margin-left: 24px;
+  margin-right: 24px;
+  margin-bottom: 32px;
+  width: 100%;
+}
+/*Second Block*/
+#secondBlock{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  height: 600px;
+  margin-top: 32px;
+}
+.leftSecondBlock{
+  width:60%;
+  height:600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-right: 24px;
+  margin-left: 24px;
+}
+.leftTopDiv{
+  width: 60%;
+  height: 35%;
+}
+#main-info{
+  margin: 32px 24px;
+}
+.leftBottomDiv{
+  margin-top: 16px;
+}
+.rightSecondBlock{
+  width:40%;
+  height:600px:
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+.threeBoxes{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border: 1px solid lightgray;
+}
+.picBox{
+  width: 120px;
+  margin: 16px;
+}
+.guest{
+  background-color: gray;
+}
+.thirdBlock{
+  width: 100%;
+  height: 600px;
+  background-color: lightgray;
+}
